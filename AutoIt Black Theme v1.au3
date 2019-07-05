@@ -84,7 +84,7 @@ Func _Install()
 	_Progress(1)
 	FileInstall("SciTEUser.properties", GUICtrlRead($Input2) & "SciTEUser.properties", 1)
 	_Progress(2)
-	MsgBox(64, "Статус", "Все! Установленно", 0, $Form1)
+	MsgBox(64, "Статус", "Ура! Установленно", 0, $Form1)
 EndFunc
 
 Func _Progress($n)
