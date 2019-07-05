@@ -80,7 +80,7 @@ Func _Install()
 	Sleep(50)
 	_Progress(1)
 	If FileExists($ScitePath & "SciTEUser.properties") Then
-		$hmsg = MsgBox(4+32, "Внимание", "Хотите установить тему?", 0, $Form1)
+		$hmsg = MsgBox(4+32, "Внимание", "Хотите установить тёмную тему?", 0, $Form1)
 		If $hmsg = 6 Then
 			FileDelete($ScitePath & "SciTEUser.properties")
 			_Progress(2)
